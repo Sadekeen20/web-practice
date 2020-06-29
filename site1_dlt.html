@@ -4,12 +4,124 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+      
+        h1{
+            color: orange;
+        }
+    
+        .sp:hover{
+            color: whitesmoke;
+            font-size: 60px;
+            background-color: rgb(252, 17, 0);
+        }
+        input:focus{
+            font-size: 20px;
+            color: red;
+        }
+        li:nth-child(2n){
+            color: teal;
+            
+        }
+       a:visited{
+           color: red;
+       }
+       h1::before{
+           content: "hey";
+           color: thistle;
+       }
+       h1::after{
+           content: "hulu";
+           color: whitesmoke;
+       }
+
+       body {
+        counter-reset: section;                       /* Set a counter named 'section', and its initial value is 0. */
+        }
+
+        p::before{
+            content: "🥺";
+        }
+        .container{
+            background-color: lightblue;
+            border-color: red ;
+
+        }
+        div{
+            height: 100px;
+            width: 100px;
+            
+        }
+        #first{
+            background-color: forestgreen;
+        }
+        #second{
+            background-color:greenyellow;
+            position: fixed;
+            left: 100px;
+           
+        }
+        #third{
+            background-color: hotpink;
+        }
+        .ula{
+            background-color: gray;
+        }
+
+    </style>
 </head>
 <body>
-    <title>Alright guys this is change 1 </title>
+    
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis optio, vitae voluptate impedit ea quas? Fugiat amet, consectetur sapiente molestias quae voluptatem veritatis magnam optio cum? Ad ullam dolor fuga? </p>
-    <input type="text">
+    
+
+
+    <!-- practice pseudoclass-->
+
+    <h1>pseudo  class--</h1>
+    
+    <h1 class="sp">normal class--</h1>
+    <!-- FOCUS PSEUDOCLASS  -->
+    <input name="email" type="text">
     <br>
-    <button>click me bubua</button>
+    <input name="password" type="password">
+    <ul>
+        <p>pakapepe</p>
+        <p>1pakapepe</p>
+        <p>2pakapepe</p>
+        <p>3pakapepe</p>
+        
+    </ul>
+
+    <a href="https://sadekeen20.github.io/sample/sample.html">Mysite</a>
+
+    <!-- position practice-->
+    <section>
+        <h1> LEARNINIG ulala</h1>
+    </section>
+    <section class="container">
+        
+        <div id="first"></div>
+        <div id="second"></div>
+        <div id="third"></div>
+        <div class="ula"></div>
+        <div class="ula"></div>
+        <div class="ula"></div>
+        <div class="ula"></div>
+        <div class="ula"></div>
+        <div class="ula"></div>
+        <div class="ula"></div>
+        <div class="ula"></div>
+        <div class="ula"></div>
+        <div class="ula"></div>
+        <div class="ula"></div>
+        <div class="ula"></div>
+        <div class="ula"></div>
+        <div class="ula"></div>
+        <div class="ula"></div>
+        <div class="ula"></div>
+
+    </section>
+
 </body>
 </html>
